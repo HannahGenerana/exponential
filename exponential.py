@@ -8,10 +8,17 @@ def exponent (base, exp):
 
 # calculate the result when the base is raise to exp
     result = base ** exp
-    
+
 # conditions
    # check if the exp is equal to 0
+    if exp == 0:
+        print (f"{base} raises to the power of {exp}: 1")
 
    # check if the exp is less than 0
+    elif exp < 0:
+        print ("Exponent cannot be a negative integer.")
+
+    else:
+        print (f"{base} raises to the power of {exp}: {result}")
 
 # print the result
