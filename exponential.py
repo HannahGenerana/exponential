@@ -22,3 +22,6 @@ def exponent (base, exp):
         print (f"{base} raises to the power of {exp}: {result}")
 
 # print the result
+exponent (20,0)
+exponent (10,-2)
+exponent (3,7)
