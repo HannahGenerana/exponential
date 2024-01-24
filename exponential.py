@@ -4,9 +4,11 @@
 # pseudocode
 
 # create a function called exponent 
+def exponent (base, exp):
 
 # calculate the result when the base is raise to exp
-
+    result = base ** exp
+    
 # conditions
    # check if the exp is equal to 0
 
